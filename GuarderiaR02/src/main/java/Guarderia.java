@@ -136,7 +136,7 @@ public class Guarderia {
      * metodo para ver los mayores de 5 años
      * @return
      */
-    public boolean identificarMayores5(){
+    public boolean identificarMayores5(int edad){
         Boolean mayor = false;
         for (Estudiante estudiante : listaEstudiantes) {
             if (estudiante.edad > 5) {
