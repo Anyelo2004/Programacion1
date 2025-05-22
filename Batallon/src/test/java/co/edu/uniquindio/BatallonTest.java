@@ -19,7 +19,7 @@ class BatallonTest {
         LinkedList <Soldado>  ListPersonal = new LinkedList<>();
         Batallon batallonTest = new Batallon("EL cerro","1234");
         Mision misionTest = new Mision("1", LocalDate.of(2025,04,12),"Génova");
-        Soldado soldadoTest = new Soldado("00","Carlos",25,Rango.SOLDADO,Especializacion.COMUNICACION,EstadoSoldado.DISPONIBLE);
+        Soldado soldadoTest = new Soldado("00","JhanCarlos",25,Rango.SOLDADO,Especializacion.COMUNICACION,EstadoSoldado.DISPONIBLE);
         Soldado soldado1 = new Soldado("001", "Carlos Ramírez",29,Rango.CABO,Especializacion.MEDICO,EstadoSoldado.DISPONIBLE);
         Soldado soldado2 = new Soldado("002", "Luis Torres", 32, Rango.SARGENTO, Especializacion.LOGISTICA, EstadoSoldado.NO_DISPONIBLE);
         Soldado soldado3 = new Soldado("003", "Ana Martínez", 27, Rango.SOLDADO, Especializacion.COMUNICACION, EstadoSoldado.DISPONIBLE);
